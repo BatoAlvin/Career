@@ -11,63 +11,53 @@
 
 <form action="{{route('applicationslist')}}" method="post">
   
-<table class="table table-light">
-                <thead class="thead-dark">
-                  <tr>
-                  <th scope="col">Avatar</th>
-                    <th scope="col">Email</th>
-                    <th scope="col">Github Handle</th>
-                    <th scope="col">CV</th>
-                    <th scope="col">Date</th>
-                    <th scope="col">Company</th>
-                    <th scope="col">Action</th>
-                  </tr>
-                </thead>
-                <tbody>
+<div class="row">
+					<div class="col-md-12">
+						<div class="table-responsive">
+							<table class="table table-striped custom-table">
+								<thead>
+									<tr>
+										<th>Avatar</th>
+										<th>Email</th>
+								
+										<th>Github Handle</th>
+										<th>CV</th>
+										<th>Date</th>
+										<th>Company</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
                 @foreach($students as $student)
-                  <tr>
-                  <td>
+									<tr>
+									
+									<td>
                       <img src="{{ asset('uploads/'.$student->avatar)}}" width='28px' height='28px'  class="rounded-circle m-r-5"/>
                     
                     </td>
-                  <td>
-                     {{ $student->email}}
-                    </td>
-                    <td>
-                     {{ $student->github}}
-                    </td>
-                    <td>
-                    {{ $student->cv}}
-                    </td>
-                    <td>
-                    {{ $student->date}}
-                    </td>
+										<td>{{ $student->email}}</td>
+										<td> {{ $student->github}}</td>
+										<td>{{ $student->cv}}</td>
+										<td>{{ $student->date}}</td>
                     <td>
                      
-                      {{ $student->company}}
-                    </td>
-                  
-                    <td>
+                     {{ $student->company}}
+                   </td>
+                   <td>
                     <a href="{{url('/applications/'.$student->id)}}" class="btn btn-sm btn-warning">View</a>
-                    
-                     
                     </td>
-                  </tr>
-                  @endforeach
 
-                  <tr>
- 
-                  </tr>
-                  
-                
-                
-                 
-                </tbody>
-              </table>
+									</tr>
+                  @endforeach
+								</tbody>
+							</table>
               <div class="m-t-20 text-center">
                               <a href="/dashboard" class="btn btn-primary">Back </a>
                             </div>
-              </form>
+						</div>
+					</div>
+                </div>
+
               <div style='padding: 0px'>
                 {{ $students->links()}}
                 </div>
