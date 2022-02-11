@@ -24,9 +24,9 @@
                                 <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
                                 <div class="dropdown-menu dropdown-menu-right">
                                     
-                                <a href="{{url('/details/'.$student->id)}}" class="dropdown-item" ><i class="fa fa-pencil m-r-5" ></i> View</a>
+                                <a href="{{url('/details/'.$student->id)}}" class="dropdown-item" ><i></i> View</a>
                                 @if (Auth::user()->hasRole('admin'))
-                                    <a href="{{url('/delete/'.$student->id)}}" class="dropdown-item"  data-toggle="modal"><i class="fa fa-trash-o m-r-5"></i> Delete</a>
+                                    <a href="{{url('/delete/'.$student->id)}}" class="dropdown-item"  data-toggle="modal"><i></i> Delete</a>
                                 @endif
                                 </div>
                             </div>
