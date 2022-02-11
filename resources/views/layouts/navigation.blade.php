@@ -88,7 +88,42 @@
                 </div>
             </div>
         </div>
+		<div class="sidebar" id="sidebar">
+            <div class="sidebar-inner slimscroll">
+                <div id="sidebar-menu" class="sidebar-menu">
+				<ul>
+            @if (Auth::user()->hasRole('admin'))
+            <li>
+			<a href="{{route('postjob')}}"><i class="fa fa-user-md"></i> <span>Post Job</span></a>
+                  
+                   
+                </li>
+            @endif
+           
+
+                <li>
+				<a href="{{route('dashboard')}}"><i class="fa fa-hospital-o"></i> <span>Jobs</span></a>
+                   
+                   
+                </li>
+
     
+                @if (Auth::user()->hasRole('admin'))
+                <li>
+				<a href="{{route('applicationslist')}}"><i class="fa fa-book"></i> <span>Applications</span></a>
+               
+                   
+                </li>
+    @endif
+
+            
+            </ul>
+                </div>
+            </div>
+
+          
+
+        </div>
         <div class='page-wrapper'>
        <div class='content'>
         @yield('content')
