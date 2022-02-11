@@ -34,7 +34,7 @@
                             <div class="user-country">
                                 <i class="fa fa-map-marker"></i> {{ $student->location}}
                             </div>
-                            <div class="btn btn-danger">{{ $student->deadline}}</div>
+                            <div style="color:red;">{{ $student->deadline}}</div>
                         </div>
                     </div>
                     @endforeach
