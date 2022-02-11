@@ -29,7 +29,7 @@
           padding:0;
           margin:0;
           box-sizing: border-box;
-		  overflow: hidden;
+	
       }
       body{
           background: rgb(245, 248, 248);
