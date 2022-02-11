@@ -17,7 +17,7 @@
 										<th>Avatar</th>
 										<th>Email</th>
 								
-										<th>Github Handle</th>
+										<th>Github</th>
 										<th>CV</th>
 										<th>Date</th>
 										<th>Company</th>

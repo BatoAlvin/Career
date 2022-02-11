@@ -47,7 +47,7 @@
                                                     <span class="text"  style="color:#009efb;">{{ $student->cv}}</span>
                                                 </li>
                                                 <li>
-                                                    <span class="title">GithubHandle:</span>
+                                                    <span class="title">Github:</span>
                                                     <span class="text"  style="color:#009efb;">{{ $student->github}}</span>
                                                 </li>
                                                 <li>
