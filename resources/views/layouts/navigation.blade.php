@@ -173,11 +173,11 @@
 								<div class="footer-widget footer-menu">
 									<h2 class="footer-title">NAVIGATION</h2>
 									<ul>
-										<li><a href=""><i class="fas fa-angle-double-right"></i> Enrollment</a></li>
-										<li><a href=""><i class="fas fa-angle-double-right"></i> Linkages</a></li>
+										<li><a href="https://enrollment-v3.vercel.app/"><i class="fas fa-angle-double-right"></i> Enrollment</a></li>
+										<li><a href="http://outboxlinkages.herokuapp.com/"><i class="fas fa-angle-double-right"></i> Linkages</a></li>
 										<li><a href=""><i class="fas fa-angle-double-right"></i> What We Do</a></li>
-										<li><a href=""><i class="fas fa-angle-double-right"></i> Events</a></li>
-										<li><a href=""><i class="fas fa-angle-double-right"></i> Learning</a></li>
+										<li><a href="https://events-v2.vercel.app/events"><i class="fas fa-angle-double-right"></i> Events</a></li>
+										<li><a href="https://vercelappversion1.vercel.app/"><i class="fas fa-angle-double-right"></i> Learning</a></li>
 									</ul>
 								</div>
 								<!-- /Footer Widget -->
