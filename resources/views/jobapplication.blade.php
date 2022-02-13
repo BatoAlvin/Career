@@ -23,6 +23,41 @@
                     <div class="col-lg-8 offset-lg-2">
                        
                             <div class="row">
+
+
+
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+											<div class="form-group">
+												<label for="validationDefault03">Company<span class="text-danger">*</span></label>
+												<select class="form-control select" id="validationDefault03" name='company' required>
+                                                <option selected disabled value=''>Select Company</option>
+                                <option value="Bank of Africa">Bank of Africa</option>
+                                <option value="Outbox">Outbox</option>
+                                <option value="Andella">Andella</option>
+                                <option value="Laboremus">Laboremus</option>
+                                <option value="Akalo Tech">Akalo Tech</option>
+                                <option value="Collas Tech">Collas Tech</option>
+                                <option value="URA">URA</option>
+												</select>
+											</div>
+										</div>
+
+                                        <div class="col-sm-6 col-md-6 col-lg-6">
+											<div class="form-group">
+												<label for="validationDefault03">Job<span class="text-danger">*</span></label>
+												<select class="form-control select" id="validationDefault03" name='job' required>
+                                                <option selected disabled value=''>Select Job</option>
+                                <option value="Frontend">Frontend</option>
+                                <option value="Backend">Backend</option>
+                                <option value="Fullstack">Fullstack</option>
+                                <option value="UI/UX">UI/UX</option>
+                                <option value="Devops">Devops</option>
+                                <option value="Scrum master">Scrum master</option>
+                             
+												</select>
+											</div>
+										</div>
+
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <label>Email <span class="text-danger">*</span></label>
@@ -62,37 +97,6 @@
                                 
 
   
-                                <div class="col-sm-6 col-md-6 col-lg-6">
-											<div class="form-group">
-												<label for="validationDefault03">Company</label>
-												<select class="form-control select" id="validationDefault03" name='company' required>
-                                                <option selected disabled value=''>Select Company</option>
-                                <option value="Bank of Africa">Bank of Africa</option>
-                                <option value="Outbox">Outbox</option>
-                                <option value="Andella">Andella</option>
-                                <option value="Laboremus">Laboremus</option>
-                                <option value="Akalo Tech">Akalo Tech</option>
-                                <option value="Collas Tech">Collas Tech</option>
-                                <option value="URA">URA</option>
-												</select>
-											</div>
-										</div>
-
-                                        <div class="col-sm-6 col-md-6 col-lg-6">
-											<div class="form-group">
-												<label for="validationDefault03">Job</label>
-												<select class="form-control select" id="validationDefault03" name='job' required>
-                                                <option selected disabled value=''>Select Job</option>
-                                <option value="Frontend">Frontend</option>
-                                <option value="Backend">Backend</option>
-                                <option value="Fullstack">Fullstack</option>
-                                <option value="UI/UX">UI/UX</option>
-                                <option value="Devops">Devops</option>
-                                <option value="Scrum master">Scrum master</option>
-                             
-												</select>
-											</div>
-										</div>
 
                                         
                                 <div class="col-sm-12">

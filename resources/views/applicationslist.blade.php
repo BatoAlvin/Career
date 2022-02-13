@@ -51,7 +51,7 @@
                   @endforeach
 								</tbody>
 							</table>
-              <div class="m-t-20 text-center">
+              <div class="m-t-20 text-center" style='padding-bottom:20px;'>
                               <a href="/dashboard" class="btn btn-primary">Back </a>
                             </div>
 						</div>
