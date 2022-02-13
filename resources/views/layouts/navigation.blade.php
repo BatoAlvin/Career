@@ -127,12 +127,7 @@
         <div class='page-wrapper'>
        <div class='content'>
         @yield('content')
-        </div>
-            </div>
-    </div>
-   
-
-    <footer class="footer" style='background:#096691;'>
+		<footer class="footer" style='background:#096691;'>
 				
 				<!-- Footer Top -->
 				<div class="footer-top">
@@ -263,6 +258,12 @@
 				<!-- /Footer Bottom -->
 				
 			</footer>
+        </div>
+            </div>
+    </div>
+   
+
+   
 
             <script src="/js/jquery.min.js"></script>
 		
