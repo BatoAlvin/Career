@@ -2,13 +2,13 @@
 
 @section('content')
     
-                                  
+                     
 <form action="" method='post'>
 @csrf
 <input type="hidden" name="id" value="{{$student->id}}">
 <div class="row">
                     <div class="col-sm-7 col-6">
-                        <h4 class="page-title">Job Details</h4>
+                        <h4 class="page-title" style='font-weight:bolder; text-align:center;'>Job Details</h4>
                     </div>
 
                    
