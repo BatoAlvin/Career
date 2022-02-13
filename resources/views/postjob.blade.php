@@ -105,7 +105,7 @@
                             </div>
 							
         
-                            <div class="m-t-20 text-center">
+                            <div class="m-t-20 text-center" style='padding-bottom:20px;'>
                                 <button class="btn btn-primary submit-btn">Post Job</button>
                             </div>
                        
